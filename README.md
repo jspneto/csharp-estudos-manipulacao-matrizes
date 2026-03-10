@@ -35,7 +35,12 @@ A exibicao dos vizinhos deve respeitar os limites da matriz, ou seja, so devem s
 ```bash
 |- Projeto/
    |- Img/
+   |- Src/
+      |- IO/
+         |- MatrizInputs.cs
+      |- Matriz.cs
    |- Program.cs
+   |- ProgramExamples.cs
    |- Projeto.csproj
    |- Projeto.sln
    |- README.md
@@ -45,8 +50,10 @@ A exibicao dos vizinhos deve respeitar os limites da matriz, ou seja, so devem s
 
 ## Evolução do Projeto (Tags)
 
-<lista de links para as tags do projeto>
+- [**v0.1**][1] — Solucao oob com matriz encapsulada e busca de vizinhos
 
 ## Objetivo Educacional
 
 Este projeto **não tem como foco a solução final perfeita**, mas sim o processo de aprendizado e a comparação entre abordagens diferentes para o mesmo problema.
+
+[1]: https://github.com/jspneto/csharp-estudos-manipulacao-matrizes/tree/v0.1/Projeto "v0.1"
